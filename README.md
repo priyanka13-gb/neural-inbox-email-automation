@@ -4,7 +4,7 @@ NeuralInbox watches an inbox over IMAP, classifies each incoming email with Clau
 
 ## Features
 
-- **IMAP listener**: a background task polls the mailbox at a configurable interval (default 60 s).
+- **IMAP listener**: a background task polls the mailbox at a configurable interval (default 70 s).
 - **AI classification**: Claude returns intent, department, sentiment, urgency, a summary and key topics for every email.
 - **RAG over your docs**: upload PDFs or text, which are chunked and indexed in an in-memory vector store; the top matches ground each draft.
 - **Department-aware drafts**: each department has its own tone, signature and auto-send threshold. Defaults: Support, Billing, Sales, General.
