@@ -1,4 +1,4 @@
-# 🧠 NeuralInbox — Email Automation with a RAG Pipeline
+#  NeuralInbox — Email Automation with a RAG Pipeline
 
 NeuralInbox watches an inbox over IMAP, classifies each incoming email with Claude, retrieves relevant context from your own knowledge base (RAG), and drafts a reply in the right department's tone. A human reviews, edits and approves each draft before it is sent over SMTP. High-confidence replies can be flagged for auto-send.
 
